@@ -238,7 +238,7 @@ template { display: none; }
 [hidden] { display: none; }
 /* Modules */
 /*
- 
+
   BOX SIZING
 
 */
@@ -620,18 +620,18 @@ img { max-width: 100%; }
 
  */
 .shadow-1 { box-shadow: 0 6px 5px 0 rgba( 0, 0, 0, .06 ); }
-.shadow-2 { box-shadow: 0 2px 50px 0 rgba( 0, 0, 0, .06 ); }
+.shadow-2 { box-shadow: 0 2px 6px 0 rgba( 0, 0, 0, .06 ); }
 .shadow-3 { box-shadow: 0 6px 40px 0 rgba( 0, 0, 0, .06 ); }
 .shadow-4 { box-shadow: 0 0 12px 0 rgba( 0, 0, 0, .2 ); }
 .shadow-5 { box-shadow: 0 0 14px 0 rgba( 0, 0, 0, .2 ); }
 .shadow-6 { box-shadow: 0 5px 10px 0 rgba( 0, 0, 0, .5 ); }
-/* 
-  
+/*
+
    BOX-SHADOW:PSEUDO
 
    Customize the shadow of an element when
    it is focused or hovered over.
- 
+
  */
 .hover-shadow-1:hover, .hover-shadow-1:focus { box-shadow: 0 6px 5px 0 rgba( 0, 0, 0, .06 ); }
 .hover-shadow-2:hover, .hover-shadow-2:focus { box-shadow: 0 2px 50px 0 rgba( 0, 0, 0, .06 ); }
@@ -907,7 +907,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    FORMS
-   
+
 */
 .input-reset { -webkit-appearance: none; -moz-appearance: none; }
 .button-reset::-moz-focus-inner, .input-reset::-moz-focus-inner { border: 0; padding: 0; }
@@ -3732,4 +3732,3 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .v-top-l { vertical-align: top; }
  .v-btm-l { vertical-align: bottom; }
 }
-
